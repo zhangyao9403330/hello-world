@@ -1,0 +1,402 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none; }
+
+.top {
+  width: 100%;
+  height: 40px;
+  border-bottom: 1px solid #b0b0b0; }
+  .top .top1 {
+    width: 1200px;
+    margin: auto; }
+    .top .top1 .left {
+      float: left;
+      height: 40px; }
+      .top .top1 .left li {
+        height: 15px;
+        float: left;
+        padding: 0 10px;
+        margin-top: 10px;
+        font-size: 12px;
+        color: #b0b0b0;
+        border-right: 1px #b0b0b0 solid; }
+        .top .top1 .left li:hover {
+          color: #000000; }
+        .top .top1 .left li img {
+          vertical-align: middle;
+          margin-right: 2px; }
+    .top .top1 .right {
+      float: right; }
+      .top .top1 .right .right1 {
+        display: inline-block;
+        margin-top: 10px;
+        font-size: 12px; }
+        .top .top1 .right .right1 #idname {
+          display: inline-block; }
+        .top .top1 .right .right1 span {
+          color: #b0b0b0; }
+      .top .top1 .right .right2 {
+        display: inline-block;
+        height: 40px;
+        line-height: 40px;
+        font-size: 12px;
+        position: relative; }
+        .top .top1 .right .right2 #text1 {
+          text-align: center;
+          height: 100px;
+          line-height: 100px;
+          position: absolute;
+          left: 0;
+          top: 40px;
+          width: 150px;
+          background-color: #eaeaea;
+          display: none; }
+        .top .top1 .right .right2:hover #text1 {
+          display: block; }
+        .top .top1 .right .right2 .dis {
+          display: inline-block;
+          border-bottom: 1px #b0b0b0 solid;
+          border-right: 1px #b0b0b0 solid;
+          width: 12px;
+          height: 12px;
+          transform: rotate(45deg);
+          margin-left: 10px; }
+      .top .top1 .right #right3 {
+        padding: 0 10px;
+        height: 40px;
+        line-height: 40px;
+        background: url("../images/cat-1.png") #eaeaea no-repeat 5px center;
+        background-color: #b0b0b05c;
+        display: inline-block;
+        font-size: 12px;
+        position: relative; }
+        .top .top1 .right #right3 #text2 {
+          display: none;
+          text-align: center;
+          height: 100px;
+          line-height: 100px;
+          position: absolute;
+          right: 0;
+          top: 40px;
+          width: 200px;
+          background-color: #eaeaea; }
+        .top .top1 .right #right3:hover {
+          background: url("../images/cat-2.png") #eaeaea no-repeat 5px center;
+          background-color: #ffffff;
+          color: orangered; }
+        .top .top1 .right #right3:hover #text2 {
+          display: block;
+          color: #000000; }
+        .top .top1 .right #right3 span {
+          margin-left: 20px; }
+          .top .top1 .right #right3 span #shoppingcar {
+            margin: 0; }
+
+.header {
+  width: 100%;
+  height: 100px; }
+  .header .header1 {
+    width: 1200px;
+    margin: auto; }
+    .header .header1 h1 {
+      float: left;
+      height: 100px;
+      line-height: 100px; }
+      .header .header1 h1 img {
+        vertical-align: middle; }
+    .header .header1 .center {
+      float: left;
+      margin-left: 20px;
+      height: 100px; }
+      .header .header1 .center select {
+        margin-top: 20px; }
+    .header .header1 .right {
+      float: right;
+      margin-top: 30px;
+      width: 350px;
+      border: 1px #b0b0b0 solid;
+      height: 35px; }
+      .header .header1 .right input {
+        width: 300px;
+        height: 35px;
+        border: none;
+        outline: none; }
+      .header .header1 .right img {
+        vertical-align: middle;
+        width: 35px;
+        height: 35px; }
+
+.nav {
+  height: 46px;
+  width: 1200px;
+  margin: auto;
+  background-color: #333333;
+  position: relative; }
+  .nav .left {
+    float: left;
+    background-color: #2690a6;
+    height: 46px;
+    line-height: 46px;
+    text-indent: 30px;
+    width: 234px;
+    position: relative; }
+    .nav .left:hover > ul {
+      display: block; }
+    .nav .left ul {
+      display: none;
+      z-index: 2;
+      width: 234px;
+      position: absolute;
+      left: 0;
+      top: 46px;
+      background: rgba(0, 0, 0, 0.6);
+      height: 460px; }
+      .nav .left ul .li1 {
+        margin-top: 20px; }
+      .nav .left ul > li {
+        width: 234px;
+        height: 47px;
+        color: #ffffff;
+        background: url(../images/c_array.png) no-repeat 195px 15px; }
+        .nav .left ul > li:hover {
+          background-color: #2690a6; }
+        .nav .left ul > li ul {
+          position: absolute;
+          top: 0;
+          left: 234px;
+          background-color: #ffffff;
+          display: none; }
+          .nav .left ul > li ul li {
+            width: 200px;
+            background: none;
+            color: #000000;
+            font-size: 14px; }
+            .nav .left ul > li ul li img {
+              height: 47px;
+              width: 40px;
+              vertical-align: middle;
+              margin-right: 10px; }
+            .nav .left ul > li ul li:hover {
+              background-color: #ffffff; }
+        .nav .left ul > li:hover ul {
+          display: block; }
+  .nav .center {
+    float: left; }
+    .nav .center li {
+      float: left;
+      padding: 13px 30px;
+      color: #ffffff; }
+      .nav .center li a {
+        color: #ffffff; }
+      .nav .center li:hover a {
+        color: orange; }
+      .nav .center li:hover ul {
+        height: 270px; }
+      .nav .center li ul {
+        position: absolute;
+        left: 0;
+        top: 46px;
+        width: 100%;
+        z-index: 2;
+        transition: 1s;
+        overflow: hidden;
+        height: 0;
+        background-color: #ffffff; }
+        .nav .center li ul .li1 {
+          margin-left: 50px; }
+        .nav .center li ul li {
+          float: left;
+          padding: 0; }
+          .nav .center li ul li p {
+            text-align: center;
+            width: 204px;
+            color: #000000;
+            height: 30px;
+            line-height: 30px;
+            font-size: 12px; }
+          .nav .center li ul li div {
+            text-align: center;
+            width: 204px;
+            color: orange;
+            height: 30px;
+            line-height: 30px;
+            font-size: 12px; }
+          .nav .center li ul li img {
+            width: 204px; }
+  .nav .right {
+    float: left;
+    height: 25px;
+    color: #ffffff;
+    margin-top: 10px;
+    border: 1px #ffffff solid;
+    text-align: center;
+    width: 200px; }
+
+.count {
+  overflow: hidden;
+  width: 1200px;
+  margin: auto;
+  background-color: #f5f5f5; }
+  .count .top1 {
+    height: 70px;
+    width: 1160px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    margin-bottom: 0;
+    overflow: hidden; }
+    .count .top1 li {
+      float: left;
+      height: 70px;
+      line-height: 70px;
+      text-align: center; }
+    .count .top1 .Check {
+      width: 120px; }
+    .count .top1 .Img {
+      width: 120px; }
+    .count .top1 .Name {
+      width: 380px;
+      text-align: left;
+      text-indent: 20px; }
+    .count .top1 .Price {
+      width: 120px; }
+    .count .top1 .Num {
+      width: 150px; }
+    .count .top1 .All {
+      width: 120px; }
+    .count .top1 .Delect {
+      width: 120px; }
+  .count #allshopping {
+    width: 1160px;
+    overflow: hidden;
+    margin: auto;
+    background-color: #f5f5f5; }
+    .count #allshopping .myshopping {
+      width: 1160px;
+      height: 120px;
+      background-color: #ffffff;
+      margin: auto;
+      float: left;
+      overflow: hidden; }
+      .count #allshopping .myshopping li {
+        float: left;
+        height: 120px;
+        text-align: center;
+        line-height: 120px; }
+      .count #allshopping .myshopping .Check {
+        width: 120px; }
+      .count #allshopping .myshopping .Img {
+        width: 120px; }
+        .count #allshopping .myshopping .Img img {
+          width: 80px;
+          height: 80px;
+          vertical-align: middle; }
+      .count #allshopping .myshopping .Name {
+        width: 380px;
+        text-align: left;
+        text-indent: 20px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 1; }
+      .count #allshopping .myshopping .Price {
+        width: 120px; }
+      .count #allshopping .myshopping .Num {
+        width: 150px;
+        line-height: 120px; }
+        .count #allshopping .myshopping .Num P {
+          height: 38px;
+          width: 100%;
+          line-height: 38px;
+          margin-top: 41px;
+          vertical-align: middle; }
+          .count #allshopping .myshopping .Num P span {
+            float: left;
+            width: 38px;
+            height: 38px;
+            font-size: 25px;
+            line-height: 38px; }
+          .count #allshopping .myshopping .Num P input {
+            float: left;
+            height: 34px;
+            width: 70px;
+            text-align: center; }
+      .count #allshopping .myshopping .All {
+        width: 120px;
+        color: orange; }
+      .count #allshopping .myshopping .Delect {
+        width: 120px; }
+        .count #allshopping .myshopping .Delect span {
+          float: left;
+          width: 80px;
+          height: 80px;
+          line-height: 80px;
+          margin: 20px 20px;
+          font-size: 40px; }
+  .count .jiesuan {
+    height: 50px;
+    width: 1160px;
+    margin: auto;
+    margin-bottom: 20px;
+    line-height: 50px;
+    background-color: #ffffff; }
+    .count .jiesuan .left {
+      float: left;
+      font-size: 14px; }
+      .count .jiesuan .left a {
+        padding: 20px; }
+      .count .jiesuan .left span {
+        padding: 20px; }
+        .count .jiesuan .left span #allnum {
+          padding: 5px;
+          color: orange;
+          display: inline-block;
+          height: 30px;
+          width: 30px;
+          text-align: center;
+          line-height: 30px; }
+    .count .jiesuan .right {
+      float: right; }
+      .count .jiesuan .right span {
+        padding: 10px;
+        font-size: 12px; }
+      .count .jiesuan .right #allprice {
+        padding: 5px;
+        display: inline-block;
+        height: 30px;
+        width: 100px;
+        text-align: center;
+        font-size: 30px;
+        line-height: 30px;
+        color: orange; }
+      .count .jiesuan .right #btn1 {
+        width: 100px;
+        height: 40px;
+        background-color: #ff8a00fc;
+        color: #ffffff;
+        text-align: center;
+        outline: none;
+        border: none; }
+        .count .jiesuan .right #btn1:hover {
+          box-shadow: 0px 2px 4px 1px #000000; }
+
+#dis {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  display: none;
+  left: 0;
+  top: 0; }
+  #dis img {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    left: 50%;
+    top: 50%;
+    margin-left: -300px;
+    margin-top: -300px; }
+
+/*# sourceMappingURL=shoppingcar.css.map */

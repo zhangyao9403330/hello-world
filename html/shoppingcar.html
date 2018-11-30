@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="../css/shoppingcar.css" type="text/css" rel="stylesheet">
+    <title>购物车</title>
+</head>
+
+<body>
+    <div class="top">
+        <div class="top1">
+            <ul class="left">
+                <li><a href="index.html">舒华官网</a></li>
+                <li><a>SHUA OVERSEA</a></li>
+                <li>
+                    <a><img src="../images/shouc.png">收藏舒华官方商城</a>
+                </li>
+                <li>
+                    <a><img src="../images/weixinicon.png">官方微信</a>
+                </li>
+            </ul>
+            <div class="right">
+                <div class="right1">
+                    <span>舒华商城欢迎您</span>
+                    <div id="idname">
+                        ，请
+                        <a>登录</a>
+                        <span>|</span>
+                        <a>注册</a>
+                        <span>|</span>
+                    </div>
+                </div>
+                <div class="right2">
+                    <span>商城公告</span>
+                    <div class="dis"></div>
+                    <div id="text1">暂无公告</div>
+                </div>
+                <div id="right3">
+                    <span>购物车(<span id="shoppingcar">0</span>)</span>
+                    <div id="text2">
+                        购物车还没有商品,赶紧选购吧!
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header">
+        <div class="header1">
+            <h1>
+                <img src="../images/logo.png">
+            </h1>
+            <div class="center">
+                <select id="province">
+                                                <option>请选择省</option>
+                                            </select><br>
+                <select id="city">
+                                                <option>请选择市</option>
+                                            </select>
+            </div>
+            <div class="right">
+                <input>
+                <img src="../images/fdj-1.png">
+            </div>
+        </div>
+    </div>
+    <div class="nav">
+        <div class="left"><a href="goodlist.html">全部商品分类</a>
+            <ul>
+                <li class="li1">跑步机/智能
+                    <ul>
+                        <li class="li1"><img src="../images/1 (1).jpg">跑步机/智能</li>
+                        <li><img src="../images/1 (2).jpg">健身车/动感单车</li>
+                        <li><img src="../images/1 (3).jpg">椭圆机/倒立机</li>
+                        <li><img src="../images/1 (4).jpg">肌肉训练</li>
+                        <li><img src="../images/1 (5).jpg">按摩养生</li>
+                    </ul>
+                </li>
+                <li>健身车/动感单车
+                    <ul>
+                        <li class="li1"><img src="../images/1.jpg">跑步机/智能</li>
+                        <li><img src="../images/2.jpg">健身车/动感单车</li>
+                        <li><img src="../images/3.jpg">椭圆机/倒立机</li>
+                        <li><img src="../images/4.jpg">肌肉训练</li>
+                        <li><img src="../images/5.jpg">按摩养生</li>
+                        <li><img src="../images/6.jpg">按摩养生</li>
+                        <li><img src="../images/7.jpg">按摩养生</li>
+                        <li><img src="../images/8.jpg">按摩养生</li>
+                    </ul>
+                </li>
+                <li>椭圆机/倒立机
+                    <ul>
+                        <li class="li1"><img src="../images/1 (1).jpg">跑步机/智能</li>
+                        <li><img src="../images/5.jpg">按摩养生</li>
+                        <li><img src="../images/6.jpg">按摩养生</li>
+                        <li><img src="../images/7.jpg">按摩养生</li>
+                        <li><img src="../images/8.jpg">按摩养生</li>
+                        <li><img src="../images/1 (5).jpg">按摩养生</li>
+                        <li><img src="../images/1 (5).jpg">按摩养生</li>
+                        <li><img src="../images/1 (5).jpg">按摩养生</li>
+                    </ul>
+                </li>
+                <li>肌肉训练
+                    <ul>
+                        <li class="li1"><img src="../images/1.jpg">跑步机/智能</li>
+                        <li><img src="../images/3.jpg">椭圆机/倒立机</li>
+                        <li><img src="../images/6.jpg">按摩养生</li>
+                        <li><img src="../images/7.jpg">按摩养生</li>
+                        <li><img src="../images/8.jpg">按摩养生</li>
+                        <li><img src="../images/1 (4).jpg">肌肉训练</li>
+                        <li><img src="../images/1 (5).jpg">按摩养生</li>
+                    </ul>
+                </li>
+                <li>哑铃/仰卧板
+                    <ul>
+                        <li class="li1"><img src="../images/1 (1).jpg">跑步机/智能</li>
+                        <li><img src="../images/1 (2).jpg">健身车/动感单车</li>
+                        <li><img src="../images/1 (3).jpg">椭圆机/倒立机</li>
+                        <li><img src="../images/1 (4).jpg">肌肉训练</li>
+                        <li><img src="../images/1 (5).jpg">按摩养生</li>
+                        <li><img src="../images/6.jpg">按摩养生</li>
+                        <li><img src="../images/7.jpg">按摩养生</li>
+                        <li><img src="../images/8.jpg">按摩养生</li>
+                    </ul>
+                </li>
+                <li>瑜伽运动
+                    <ul>
+                        <li class="li1"><img src="../images/1.jpg">跑步机/智能</li>
+                        <li><img src="../images/5.jpg">按摩养生</li>
+                        <li><img src="../images/6.jpg">按摩养生</li>
+                        <li><img src="../images/7.jpg">按摩养生</li>
+                        <li><img src="../images/8.jpg">按摩养生</li>
+                        <li><img src="../images/1 (5).jpg">按摩养生</li>
+                        <li><img src="../images/1 (6).jpg">按摩养生</li>
+                        <li><img src="../images/1 (8).jpg">按摩养生</li>
+                    </ul>
+                </li>
+                <li>按摩养生
+                    <ul>
+                        <li class="li1"><img src="../images/1 (1).jpg">跑步机/智能</li>
+                        <li><img src="../images/6.jpg">按摩养生</li>
+                        <li><img src="../images/7.jpg">按摩养生</li>
+                        <li><img src="../images/1 (4).jpg">肌肉训练</li>
+                        <li><img src="../images/1 (5).jpg">按摩养生</li>
+                        <li><img src="../images/4.jpg">肌肉训练</li>
+                        <li><img src="../images/5.jpg">按摩养生</li>
+                        <li><img src="../images/6.jpg">按摩养生</li>
+                    </ul>
+                </li>
+                <li>户外路径
+                    <ul>
+                        <li class="li1"><img src="../images/1.jpg">跑步机/智能</li>
+                        <li><img src="../images/5.jpg">按摩养生</li>
+                        <li><img src="../images/6.jpg">按摩养生</li>
+                        <li><img src="../images/7.jpg">按摩养生</li>
+                        <li><img src="../images/8.jpg">按摩养生</li>
+                        <li><img src="../images/1 (4).jpg">肌肉训练</li>
+                        <li><img src="../images/1 (5).jpg">按摩养生</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <ul class="center">
+            <li><a href="index.html">首页</a></li>
+            <li id="shuhua"><a href="goodlist.html">舒华</a>
+                <ul>
+                    <li class="li1">
+                        <img src="../images/1.jpg">
+                        <p>舒华e3 跑步机</p>
+                        <div>299元起</div>
+                    </li>
+                    <li>
+                        <img src="../images/2.jpg">
+                        <p>舒华e3 跑步机</p>
+                        <div>299元起</div>
+                    </li>
+                    <li>
+                        <img src="../images/3.jpg">
+                        <p>舒华e3 跑步机</p>
+                        <div>299元起</div>
+                    </li>
+                    <li>
+                        <img src="../images/4.jpg">
+                        <p>舒华e3 跑步机</p>
+                        <div>299元起</div>
+                    </li>
+                    <li>
+                        <img src="../images/5.jpg">
+                        <p>舒华e3 跑步机</p>
+                        <div>299元起</div>
+                    </li>
+                    <li>
+                        <img src="../images/6.jpg">
+                        <p>舒华e3 跑步机</p>
+                        <div>299元起</div>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="goodlist.html">健身知识</a></li>
+            <li><a href="goodlist.html">实体店</a></li>
+            <li><a href="goodlist.html">舒华健身工程案例</a></li>
+            <li><a href="goodlist.html">企业团购</a></li>
+        </ul>
+        <p class="right">舒华公司唯一官方商城</p>
+    </div>
+    <div class="count">
+        <ul class="top1">
+            <li class="Check"><input class="checkall" type="checkbox"><span>全选</span></li>
+            <li class="Img"></li>
+            <li class="Name">商品名称</li>
+            <li class="Price">单价</li>
+            <li class="Num">数量</li>
+            <li class="All">小计</li>
+            <li class="Delect">操作</li>
+        </ul>
+        <div id="allshopping">
+            <!-- <ul class="myshopping">
+                <li class="Check"><input type="checkbox"></li>
+                <li class="Img"><img src="../images/list1.jpg"></li>
+                <li class="Name">舒华（SHUA）跑步机家用静音 多功能折叠健身器材SH-9130</li>
+                <li class="Price">1000元</li>
+                <li class="Num">
+                    <p><span id="">-</span><input value="1"><span>+</span></p>
+                </li>
+                <li class="All">1000元</li>
+                <li class="Delect"><span>×</span></li>
+            </ul> -->
+        </div>
+        <div class="jiesuan">
+            <div class="left">
+                <a href="goodlist.html">继续购物</a>|<span>您已选择了<span id="allnum">0</span>件商品</span>
+            </div>
+            <div class="right">
+                <span>合计（不含运费）：</span><span id="allprice">0</span><span>元</span>
+                <button id="btn1">去结算</button>
+            </div>
+        </div>
+    </div>
+    <div id="dis">
+        <img src="../images/20180705191645.jpg">
+    </div>
+</body>
+<script src="../js/jquery.js"></script>
+<script src="../js/cookie.js"></script>
+<script>
+    setcookie("back", " l", 7);
+
+    var userid = getcookie("loginUserId");
+    if (userid) {
+        getdata()
+    } else {
+        window.location.href = "../dengru.html"
+    }
+
+    function getdata() {
+        $.ajax({
+            type: "get",
+            url: "../php/mycar.php",
+            data: {
+                userid: userid,
+            },
+            dataType: "json",
+            success: function(list1) {
+                var html = ""
+                for (var i = 0; i < list1.length; i++) {
+                    var list = list1[i] //获取一个个的对象
+                    let id = list["id"];
+                    let userid = list["userid"];
+                    let goodsid = list["goodsid"];
+                    let goodsnum = list["goodsnum"];
+                    let goodsprice = list["goodsprice"];
+                    let goodsimg = list["goodsimg"];
+                    let goodsname = list["goodsname"];
+                    html += `
+                    <ul class="myshopping">
+                        <li class="Check"><input type="checkbox" class="check_one" onclick=check(this)></li>
+                        <li class="Img"><img src="../images/${goodsimg}1.jpg"></li>
+                        <li class="Name">${goodsname}</li>
+                        <li class="Price">${goodsprice}元</li>
+                        <li class="Num">
+                            <p><span onclick="prev('${id}',this)">${goodsnum>1?"-":""}</span><input disabled="disabled" value="${goodsnum}"><span onclick="next('${id}',this)">+</span></p>
+                        </li>
+                        <li class="All">${(goodsprice*goodsnum).toFixed(2)}元</li>
+                        <li class="Delect"><span onclick="delect('${id}',this)">×</span></li>
+                    </ul>
+                    `
+                }
+                $("#allshopping").html(html);
+            }
+        })
+    }
+
+    $("#btn1").click(function() {
+        if ($("#allnum").html() == 0) {
+            $("#dis").css({
+                display: "none"
+            })
+        } else {
+            $("#dis").css({
+                display: "block"
+            })
+        }
+    })
+    $("#dis").click(function() {
+        $("#dis").css({
+            display: "none"
+        })
+    })
+    var count = 0
+
+
+    function check(id) {
+        if ($(id).prop("checked") == true) {
+            count++;
+
+        } else {
+            count--
+        }
+        var lengthnum = $("#allshopping .check_one").length
+        if (lengthnum == count) {
+            // $(".checkall").attr("checked", "true")
+            $(".checkall").prop("checked", true);
+        } else {
+            $(".checkall").prop("checked", false);
+        }
+        getprice()
+    }
+
+    //单选
+    function getprice() {
+        var checklist = $("#allshopping .check_one");
+        Allnum = 0
+        Allprice = 0
+        for (var i = 0; i < checklist.length; i++) {
+            var check = checklist[i];
+            if (check.checked == true) {
+                var numInpur = check.parentNode.nextElementSibling.nextElementSibling.nextElementSibling.nextElementSibling;
+                var num = numInpur.getElementsByTagName("input")[0];
+                Allnum += num.value * 1
+                var priceInput = numInpur.nextElementSibling;
+                Allprice += parseInt(priceInput.innerHTML) * 1
+            }
+
+        }
+        $("#allprice").html(Allprice);
+        $("#allnum").html(Allnum);
+
+    }
+    //结算
+    $(".checkall").click(function() {
+            if ($(this).prop("checked") == true) {
+                $("#allshopping .check_one").prop("checked", true)
+                count = $("#allshopping .check_one").length;
+            } else {
+                $("#allshopping .check_one").prop("checked", false)
+                count = 0;
+            }
+            getprice();
+        })
+        //多选
+
+    function next(id, jia) {
+        var text = $(jia).prev();
+        var num = text.val() * 1 + 1;
+        text.val(num);
+        if (text.val() > 1) {
+            text.prev().html("-")
+        }
+        var parent = $(jia).parent().parent();
+        var danjia = parseInt(parent.prev().html()) * 1;
+        var price = parent.next();
+        price.html((danjia * num).toFixed(2) + "元");
+        // var Num=$("#allnum").html();
+        // var Price=$("#allprice").html();
+        getprice();
+        $.ajax({
+            type: "get",
+            url: "../php/check.php",
+            data: {
+                id: id,
+                num: 1
+            },
+            dataType: "json",
+            success: function(list) {
+                if (list["code"] == 1) {
+                    mycar()
+                } else {
+                    alert(list["msg"])
+                }
+            }
+        })
+    }
+    //加货物
+    function prev(id, jian) {
+        var text = $(jian).next();
+        if (text.val() == 1) {
+            $(jian).html("")
+            return false
+        }
+        var num = text.val() * 1 - 1;
+        text.val(num);
+        var parent = $(jian).parent().parent();
+        var danjia = parseInt(parent.prev().html()) * 1;
+        var price = parent.next();
+        price.html((danjia * num).toFixed(2) + "元");
+        getprice();
+        $.ajax({
+            type: "get",
+            url: "../php/check.php",
+            data: {
+                id: id,
+                num: -1
+            },
+            dataType: "json",
+            success: function(list) {
+                if (list["code"] == 1) {
+                    mycar()
+                } else {
+                    alert(list["msg"])
+                }
+            }
+        })
+    }
+
+    //减货物
+
+    function delect(id, dt) {
+        $(dt).parent().parent().remove();
+        getprice()
+        $.ajax({
+            type: "get",
+            url: "../php/delect.php",
+            data: {
+                id: id,
+            },
+            dataType: "json",
+            success: function(list) {
+                if (list["code"] == 1) {
+                    mycar()
+                } else {
+                    alert(list["msg"])
+                }
+            }
+        })
+    }
+    //删除货物
+    mycar()
+
+    function mycar() {
+        var userid = getcookie("loginUserId");
+        $.ajax({
+            type: "get",
+            url: "../php/myshopping.php",
+            data: {
+                userid: userid
+            },
+            dataType: "json",
+            success: function(obj) {
+                if (obj["count"]) {
+                    $("#right3").css({
+                        background: "url('../images/cat-2.png') no-repeat 5px center",
+                        backgroundColor: "#ffffff",
+                        color: "orangered"
+                    })
+                    $("#right3").click(function() {
+                        window.location.href = "shoppingcar.html"
+                    })
+                    $("#shoppingcar").html(obj["count"]);
+                    $("#text2").html("您已购买的商品,去购物车查看吧")
+                } else {
+                    $("#right3").css({
+                        background: "url('../images/cat-1.png') #eaeaea no-repeat 5px center",
+                        backgroundColor: "#b0b0b05c",
+                        color: "#ffffff"
+                    });
+                    $("#shoppingcar").html(0);
+                    $("#text2").html(" 购物车还没有商品,赶紧选购吧!")
+                }
+            }
+        })
+    }
+    // 获取用户名购买物品总量
+
+
+    var province = document.getElementById("province")
+    var cityInput = document.getElementById("city")
+    var req = new XMLHttpRequest();
+    req.open("get", "http://api.yytianqi.com/citylist/id/2", true);
+    req.send();
+    req.onreadystatechange = function() {
+            if (req.readyState == 4 && req.status == 200) {
+                var text = req.responseText;
+                var list1 = JSON.parse(text);
+                var list = list1["list"];
+                var html = "<option>请选择省份</option>"
+                for (var i = 0; i < list.length; i++) {
+                    var item = list[i];
+                    var itemid = item["city_id"] //取省的id
+                    var itemname = item["name"] //取省的名称
+                    html += "<option value=" + itemid + ">" + itemname + "</option>"
+                }
+                province.innerHTML = html
+                province.onchange = function() {
+                    var itemId = this.value //取当前省份
+                    for (var i = 0; i < list.length; i++) {
+                        var item = list[i];
+                        var itemid = item["city_id"] //取省的id
+                            //                     var itemname=item["name"]
+                        if (itemid == itemId) {
+                            var itemlist = item["list"]; //省下面的市集合
+                            var html = ""
+                            for (var j = 0; j < itemlist.length; j++) {
+                                var city = itemlist[j]
+                                var cityname = city["name"] //市
+                                var cityid = city["city_id"]
+                                html += "<option value=" + cityid + ">" + cityname + "</option>"
+                            }
+                            cityInput.innerHTML = html
+                        }
+                    }
+                }
+            }
+        }
+        // 省市联动
+
+
+    var text = `<span style="color:#2690a6"> ${getcookie("loginUserName")}</span><a id="enter" onclick=dd()>退出登入</a>`
+    if (getcookie("loginUserName")) {
+        $("#idname").html(text)
+    } else {
+        text = ` ，请
+                  <a href="enter.html">登录</a>
+                    <span>|</span>
+                    <a href="register.html">注册</a>
+                    <span>|</span>`
+        $("#idname").html(text);
+    }
+
+    $("#enter").click(function() {
+        window.location.href = "enter.html";
+        setcookie("loginUserName", 77, -7)
+        setcookie("loginUserId", dd, -7)
+    })
+</script>
+
+</html>
